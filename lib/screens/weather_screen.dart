@@ -264,6 +264,20 @@ class _WeatherScreenState extends State<WeatherScreen> {
                         ),
                       ),
                     ),
+                    
+                    // Credit footer
+                    const SizedBox(height: 24),
+                    Center(
+                      child: Text(
+                        'Made by AMRIK SINGH',
+                        style: TextStyle(
+                          fontSize: 14,
+                          fontWeight: FontWeight.bold,
+                          color: Theme.of(context).colorScheme.secondary,
+                        ),
+                      ),
+                    ),
+                    const SizedBox(height: 8),
                   ],
                 ),
               ),

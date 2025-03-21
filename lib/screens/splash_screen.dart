@@ -81,6 +81,21 @@ class _SplashScreenState extends State<SplashScreen> {
               )
               .animate()
               .fadeIn(delay: 600.ms),
+              
+              const SizedBox(height: 80),
+              
+              // Credit line with animation
+              const Text(
+                'Made by AMRIK SINGH',
+                style: TextStyle(
+                  color: Colors.white60,
+                  fontSize: 14,
+                  fontWeight: FontWeight.w500,
+                  fontFamily: 'Poppins',
+                ),
+              )
+              .animate()
+              .fadeIn(delay: 800.ms),
             ],
           ),
         ),

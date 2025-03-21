@@ -73,6 +73,20 @@ class AboutAnimationsScreen extends StatelessWidget {
               'All animations are sourced from LottieFiles and are used under their free license for non-commercial use.',
               style: TextStyle(fontSize: 14.0),
             ),
+            const SizedBox(height: 32.0),
+            const Divider(),
+            const SizedBox(height: 16.0),
+            Center(
+              child: Text(
+                'Made by AMRIK SINGH',
+                style: TextStyle(
+                  fontSize: 14.0,
+                  fontWeight: FontWeight.bold,
+                  color: Theme.of(context).colorScheme.secondary,
+                ),
+              ),
+            ),
+            const SizedBox(height: 16.0),
           ],
         ),
       ),
